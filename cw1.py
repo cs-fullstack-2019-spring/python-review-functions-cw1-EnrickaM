@@ -10,6 +10,7 @@ def main():
 # If the user doesn't enter q, ask them to input another number
 # When the user enters q to quit, print the SUM of all numbers entered
 
+# KEY: The instructions asked to keep a sum of all the entered numbers
 def problem1():
     userInput="10"
     otherInput="10"
@@ -32,6 +33,7 @@ def problem1():
 def problem2():
     userInput="Enter a number."
     otherInput="Enter the second number."
+    # KEY: We need to call the do_the_math function
 
 def do_the_math():
     dict['sum': 20,'diff':2,'product':4,'quotient':5]
